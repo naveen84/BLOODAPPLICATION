@@ -12,6 +12,7 @@ import javax.persistence.Table;
 @Table(name="donor")
 public class Donor implements Serializable
 {
+	//change in central repository
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
