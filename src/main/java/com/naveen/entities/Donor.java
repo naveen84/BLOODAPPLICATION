@@ -26,7 +26,7 @@ public class Donor implements Serializable
 	private String mobile;
     //@NotBlank @Max(value=6 , message="PLEASE ENTER 6 DIGITS")
 	private String pincode;
-	
+	private String change; 
 	public Donor() {
 		super();
 	}
